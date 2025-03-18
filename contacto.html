@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Foto Dixi</title>
+</head>
+<body>
+    <header>
+        <h1>Foto Dixi</h1>
+        <p>Capturando momentos, creando recuerdos</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Quienes Somos</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="AtencionHorario.html">Horarios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <p>Estamos listos para atender sus consultas y pedidos.</p>
+        </section>
+
+        <section>
+            <h2>Información de Contacto</h2>
+            <p><b>Dirección:</b> Calle 15 De Abril</p>
+            <p><b>Ciudad:</b> Tarija, Tarija. Bolivia</p>
+            <p><b>Teléfono:</b> 6644599</p>
+            <p><b>Celular:</b> 72968603 (Para cotizaciones)</p>
+        </section>
+
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+                
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+                
+                <label for="servicio">Servicio de interés:</label><br>
+                <select id="servicio" name="servicio">
+                    <option value="">Seleccione un servicio</option>
+                    <option value="laboratorio">Laboratorio Fotográfico</option>
+                    <option value="insumos">Venta de Insumos</option>
+                    <option value="fotografia">Fotografía Profesional</option>
+                    <option value="fotolibro">Foto Libros</option>
+                    <option value="gigantografia">Gigantografías</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Ubicación</h2>
+            <p>Estamos ubicados en el centro de Tarija, en la Calle 15 De Abril.</p>
+            <!-- Aquí iría un mapa cuando implementemos CSS/JS -->
+            <p>[Aquí se mostrará un mapa con nuestra ubicación]</p>
+        </section>
+    </main>
+
+    <footer>
+        
+        <p>Calle 15 De Abril, Tarija, Bolivia | Teléfono: 6644599 | Celular: 72968603</p>
+    </footer>
+</body>
+</html>
